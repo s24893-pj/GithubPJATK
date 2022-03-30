@@ -15,5 +15,6 @@ public class VehicleProg {
             (miniVan.fuelcap/miniVan.lkm*100) + "km" );
         System.out.println("sportsCar przewozi " + sportsCar.passengers + " pasażerów na odległość: " +
                 (sportsCar.fuelcap/sportsCar.lkm*100) + "km" );
+
     }
 }
