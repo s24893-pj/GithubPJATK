@@ -27,7 +27,7 @@ public class Vehicle {
         return lkm;
     }
 
-    public float range(){
-        return fuelcap / lkm*100;
+    public void range(){
+        System.out.println("Zasięg: " + (fuelcap / lkm*100) + "km");
     }
 }

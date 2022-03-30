@@ -11,10 +11,10 @@ public class VehicleProg {
         sportsCar.setFuelcap(300.0f);
         sportsCar.setLkm(8.6f);
 
-        System.out.println("MiniVan przewozi " + miniVan.getPassengers() + " pasażerów na odległość: " +
-                miniVan.range() + "km" );
-        System.out.println("sportsCar przewozi " + sportsCar.getPassengers() + " pasażerów na odległość: " +
-                sportsCar.range() + "km" );
+        System.out.println("MiniVan przewozi " + miniVan.getPassengers() + " pasażerów.");
+        miniVan.range();
+        System.out.println("sportsCar przewozi " + sportsCar.getPassengers() + " pasażerów.");
+        sportsCar.range();
 
     }
 }
