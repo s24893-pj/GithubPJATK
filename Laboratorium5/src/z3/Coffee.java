@@ -16,8 +16,15 @@ public class Coffee {
 
         Iterator<String> coffes = coffee.iterator();
 
+        System.out.print("[");
+        for (int i = 0; i < 6; i++){
+            System.out.print(coffee.get(i) + ", ");
+        }
+        System.out.print("]");
+
+        System.out.println();
+
         for (int i = 0; i < 6; i++)
-            //    System.out.println(coffee.get(i));
             System.out.println(coffes.next());
 
         for(String n : coffee)
@@ -29,7 +36,7 @@ public class Coffee {
             }
             System.out.println();
         }
-        
+
     }
 }
 
