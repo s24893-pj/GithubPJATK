@@ -19,5 +19,6 @@ import java.util.Scanner;
 
         System.out.format("miniVan potrzebuje %.2f litrów paliwa\n", miniVan.fuelNeed(x));
         System.out.format("sportsCar potrzebuje %.2f litrów paliwa\n", sportsCar.fuelNeed(x));
+
     }
 }
