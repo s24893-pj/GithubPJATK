@@ -16,14 +16,8 @@ public class Coffee {
 
         Iterator<String> coffes = coffee.iterator();
 
-        System.out.print("[");
-        for (int i = 0; i < 6; i++){
-            System.out.print(coffee.get(i) + ", ");
-        }
-        System.out.print("]");
-
-        System.out.println();
-
+        System.out.println(coffee);
+        
         for (int i = 0; i < 6; i++)
             System.out.println(coffes.next());
 
